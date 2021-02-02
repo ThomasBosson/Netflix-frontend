@@ -1,1 +1,48 @@
 /* Other rules */
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.header {
+  height: 90px;
+  margin-bottom: 40px;
+}
+
+.logo {
+  height: 100px;
+}
+
+.container {
+  margin: 0 50px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.pics {
+  width: 250px;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+  margin-right: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+}
